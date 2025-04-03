@@ -35,11 +35,14 @@ cd todo-app
 ```
 ### Install JSON Server
 ### To store and manage tasks, install JSON Server globally using npm
-### npm install -g json-server
-
+```bash
+npm install -g json-server
+```
 ### Running the Application
 ### Start JSON Server
 ### Run the following command to start the server and watch for changes in db.json
 
-### json-server --watch db.json --port 3000
+```bash
+json-server --watch db.json --port 3000
+```
 
